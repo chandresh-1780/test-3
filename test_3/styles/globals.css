@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('/fonts/proxima.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Proxima Nova";
+  color: black;
+  background: white;
+}
+:root {
+  --mainColor: #e67e22;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
